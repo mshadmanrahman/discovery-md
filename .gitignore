@@ -1,0 +1,8 @@
+# Internal strategy docs (don't push to public repo)
+DISTRIBUTION.md
+
+# Discovery outputs (user-generated, not part of the skill)
+discovery/
+
+# OS files
+.DS_Store
