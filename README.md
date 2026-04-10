@@ -9,6 +9,9 @@
     <a href="#example">Example</a> &middot;
     <a href="#why">Why</a>
   </p>
+  <p align="center">
+    <a href="https://github.com/mshadmanrahman/discovery-md/stargazers"><img src="https://img.shields.io/github/stars/mshadmanrahman/discovery-md?style=social" alt="GitHub stars" /></a>
+  </p>
 </p>
 
 ---
@@ -230,10 +233,22 @@ Found a gap in the workflow? Have a better interview question? Open a PR or issu
 
 ---
 
-## Related Projects
+## Support
 
-- [Claude Code Guide](https://claudecodeguide.dev) -- Learn Claude Code from scratch (if you're new to AI coding tools)
-- [Ceremonies](https://ceremonies.dev) -- Free, open-source agile ceremonies toolkit
+If this saved you time, give it a star -- it helps others find it and keeps development going.
+
+[![GitHub stars](https://img.shields.io/github/stars/mshadmanrahman/discovery-md?style=social)](https://github.com/mshadmanrahman/discovery-md/stargazers)
+
+---
+
+## See Also
+
+- **[pm-pilot](https://github.com/mshadmanrahman/pm-pilot)** -- Claude Code configured for PMs. 25 skills out of the box.
+- **[root-kg](https://github.com/mshadmanrahman/root-kg)** -- Personal knowledge graph. Ask questions across all your notes, meetings, and emails.
+- **[morning-digest](https://github.com/mshadmanrahman/morning-digest)** -- Your morning briefed in 30 seconds. Calendar, email, Slack, and action items.
+- **[ceremonies](https://github.com/mshadmanrahman/ceremonies)** -- Agile ceremonies that don't suck. Retros, estimation, team memory.
+- **[bug-shepherd](https://github.com/mshadmanrahman/bug-shepherd)** -- Zero-code bug triage for PMs. Reproduce and sync bugs without reading code.
+- **[claudecode-guide](https://github.com/mshadmanrahman/claudecode-guide)** -- The friendly guide to Claude Code.
 
 ---
 
