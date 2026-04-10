@@ -4,7 +4,7 @@
     AI-powered product discovery for PMs who don't have a UX researcher.
   </p>
   <p align="center">
-    <a href="#install">Install</a> &middot;
+    <a href="#get-started">Get Started</a> &middot;
     <a href="#how-it-works">How It Works</a> &middot;
     <a href="#example">Example</a> &middot;
     <a href="#why">Why</a>
@@ -16,11 +16,13 @@
 
 ---
 
-**Drop it into your project. Run `/product-discovery`. Your AI becomes a discovery copilot.**
+**Paste it into your AI. Say "I want to start product discovery." Your AI becomes a discovery copilot.**
 
 It walks you through framing problems, planning interviews, synthesizing findings, and packaging evidence for stakeholders. Built on Teresa Torres's Opportunity Solution Tree, The Mom Test, and 14 years of product discovery practice.
 
-No UX researcher required. No PhD in research methods. Just you, your AI coding tool, and real customer problems to solve.
+No UX researcher required. No PhD in research methods. Just you, your AI, and real customer problems to solve.
+
+**Works with:** Claude.ai | ChatGPT | Claude Code | Cursor | Windsurf | Any AI assistant
 
 ---
 
@@ -37,16 +39,40 @@ You know you should talk to customers before building. But:
 
 ---
 
-## Install
+## Get Started
 
-### Claude Code
+Choose your path. The discovery methodology is the same regardless of which tool you use.
+
+### Path A: Claude.ai or ChatGPT (No installation needed)
+
+If you use Claude.ai, ChatGPT, Gemini, or any chat-based AI, you're up and running in 2 minutes.
+
+1. Open [`system-prompt.md`](system-prompt.md) and copy the contents
+2. **Claude.ai:** Create a new Project > Set project instructions > Paste
+3. **ChatGPT:** Create a Custom GPT > Paste into Instructions (or paste at the start of any conversation)
+4. Say: *"I want to start product discovery"*
+
+That's it. The copilot will guide you through the rest.
+
+**[Full chat setup guide](QUICKSTART-CHAT.md)** -- includes tips for Claude.ai Projects, ChatGPT Custom GPTs, and other AI tools.
+
+### Path B: AI Code Editors (Cursor, Windsurf, etc.)
+
+Copy `SKILL.md` into your editor's AI rules directory:
+
+```bash
+# Cursor
+cp SKILL.md your-project/.cursor/rules/product-discovery.md
+
+# Windsurf
+cp SKILL.md your-project/.windsurfrules/product-discovery.md
+```
+
+### Path C: Claude Code (CLI)
 
 ```bash
 # Copy the skill into your project
-cp -r product-discovery/ your-project/.claude/skills/product-discovery/
-
-# Or just copy SKILL.md for the lightweight version
-cp product-discovery/SKILL.md your-project/.claude/skills/product-discovery/SKILL.md
+cp SKILL.md your-project/.claude/skills/product-discovery/SKILL.md
 ```
 
 Then run:
@@ -54,11 +80,7 @@ Then run:
 /product-discovery
 ```
 
-### Cursor / Windsurf / Other AI Editors
-
-Copy `SKILL.md` into your project's AI rules directory (`.cursor/rules/`, `.windsurfrules/`, etc.). The skill works with any AI assistant that reads markdown instructions.
-
-### Manual (No AI Tool)
+### Path D: Manual (No AI Tool)
 
 The templates in `templates/` work standalone. Copy them, fill them in, and you have a structured discovery process.
 
@@ -152,8 +174,10 @@ Week 1                          Week 2                          Week 3
 ## What's Inside
 
 ```
-product-discovery/
+discovery-md/
   SKILL.md                  # The brain. 4 interactive modes with conversation flows.
+  system-prompt.md          # Condensed version for Claude.ai / ChatGPT / any chat AI.
+  QUICKSTART-CHAT.md        # Setup guide for chat-based AI users.
   README.md                 # You're reading it.
   LICENSE                   # MIT. Use it however you want.
   templates/
@@ -201,6 +225,7 @@ discovery.md makes product discovery as accessible as writing a README. One comm
 - **Product teams** without a dedicated UX researcher
 - **Junior PMs** learning the craft (this is the $2,000 workshop in a markdown file)
 - **Anyone** who's been told "talk to your users" but doesn't know how
+- **AI-curious PMs** using Claude.ai or ChatGPT who want structured product workflows (not just "ask the AI")
 
 ## Who Is This NOT For
 
