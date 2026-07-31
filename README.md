@@ -1,3 +1,20 @@
+> ## This repo has moved
+>
+> `discovery.md` now ships as the **`pm-discovery`** plugin inside [**PM Pilot**](https://github.com/mshadmanrahman/pm-pilot), installable in one line:
+>
+> ```bash
+> claude plugin marketplace add mshadmanrahman/pm-pilot
+> claude plugin install pm-discovery@pm-pilot
+> ```
+>
+> **Why move:** this repo told you to copy `SKILL.md` on its own, but the skill referenced four templates it never gave a path to. Every template reference was dead for anyone who followed the install instructions. The plugin bundles them properly.
+>
+> **What you also get:** `interview-snapshot`, which verifies every quote it produces against the source transcript and labels anything it cannot match, instead of quietly inventing one. Teresa Torres measured roughly a 30% quote hallucination rate for AI interview synthesis. That guard is the reason to switch.
+>
+> This repo is archived and read-only. The content below is preserved for reference.
+
+---
+
 <p align="center">
   <h1 align="center">discovery.md</h1>
   <p align="center">
